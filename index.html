@@ -16,13 +16,41 @@
   .muted { color: var(--muted); }
   a { color: var(--accent); }
   code { font-size: .9em; overflow-wrap: anywhere; }
+  .hero { text-align: center; padding-top: 8px; }
+  .appicon { border-radius: 22px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+  .tagline { font-size: 1.35rem; font-weight: 700; color: var(--accent); margin: 4px 0 8px; }
+  .small { font-size: .9rem; }
+  .screens { display: flex; gap: 12px; justify-content: center; margin: 28px 0 8px; }
+  .screens img { width: 31%; max-width: 200px; height: auto; border-radius: 18px; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+  .features { padding-left: 1.1rem; }
+  .features li { margin: .35rem 0; }
   footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
 </style>
 </head>
 <body>
 <main>
-<h1>3&amp;free</h1>
-<p class="muted">Do your three. Then, whatever you want. Pick three things each day. In the full version your chosen apps stay locked until they're done; otherwise a Shortcut you set up once sends you back here.</p>
+<header class="hero">
+  <img class="appicon" src="icon-256.png" width="96" height="96" alt="3&amp;free app icon">
+  <h1>3&amp;free</h1>
+  <p class="tagline">Do your three. Then, whatever you want.</p>
+  <p class="muted">Pick three things each day. In the full version your chosen apps stay locked until they're done; otherwise a Shortcut you set up once sends you back here.</p>
+  <p class="muted small">For iPhone and iPad · no account · no ads · no tracking</p>
+</header>
+
+<div class="screens" aria-label="App screens">
+  <img src="screen-1.png" width="200" height="435" alt="Today's three, with steps, a note and a countdown">
+  <img src="screen-2.png" width="200" height="435" alt="All three done: the locked apps open">
+  <img src="screen-3.png" width="200" height="435" alt="The week look-back">
+</div>
+
+<h2>What it does</h2>
+<ul class="features">
+  <li><strong>Your three, on cards.</strong> Steps, notes and photos for each, and a tick when it's done.</li>
+  <li><strong>A real lock.</strong> Apple's Screen Time keeps the apps you choose locked until all three are ticked.</li>
+  <li><strong>Lock Screen and Dynamic Island.</strong> A Live Activity and widgets show what's left.</li>
+  <li><strong>Countdowns.</strong> Exams and deadlines in your own words, like "essay · 14 days".</li>
+  <li><strong>Private.</strong> Everything stays on your iPhone. Nothing is uploaded.</li>
+</ul>
 
 <h2>Contact</h2>
 <p>Questions, bugs or ideas: <a href="mailto:3andfree.app@gmail.com">3andfree.app@gmail.com</a>. We read everything and usually reply within a few days.</p>
