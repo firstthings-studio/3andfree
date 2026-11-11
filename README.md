@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon-256.png" width="120" alt="3&free app icon">
+  <img src="icon-rounded.png" width="120" alt="3&free app icon">
 </p>
 
 <h1 align="center">3&free</h1>
